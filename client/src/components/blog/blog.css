@@ -1,0 +1,13 @@
+.blog{
+    margin: 50px 0;
+}
+
+.blog .boxItems{
+    transition: 0.5s;
+}
+
+.blog .boxItems:hover{
+    box-shadow: 0 2px 4px rgba(0 0 0 / 8%);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
